@@ -2,15 +2,15 @@ import React from "react";
 
 const Menu = ({ category, desc, img, price, title }) => {
     return (
-        <div className="my-4 bg-white max-w-[40rem] mx-auto p-4 rounded-lg flex shadow-xl">
+        <div className="my-4 bg-white md:w-[40rem] w-80 duration-500 mx-auto p-4 rounded-lg md:flex shadow-xl">
             <div className="w-4/5">
                 <img
                     src={img}
                     alt={title}
-                    className="h-52 max-w-[260px] rounded-lg"
+                    className="md:h-52 h-32 w-44 md:w-[260px] duration-500 rounded-lg"
                 />
             </div>
-            <div className="mx-3 w-full">
+            <div className="mx-1 w-full">
                 <div className="flex justify-between">
                     <div className="text-start">
                         <h2 className="font-bold">{title}</h2>

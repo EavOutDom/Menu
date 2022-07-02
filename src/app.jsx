@@ -20,8 +20,8 @@ const App = () => {
 
     return (
         <div className="text-center my-5">
-            <h1 className="font-bold text-3xl">Menu</h1>
-            <div className="bg-white h-1 w-20 mx-auto"></div>
+            <h1 className="font-bold text-xl md:text-3xl duration-500">Menu</h1>
+            <div className="bg-white h-1 md:w-20 w-16 mx-auto"></div>
             <Categories
                 selectCategory={selectCategory}
                 categoriesList={categoriesList}
